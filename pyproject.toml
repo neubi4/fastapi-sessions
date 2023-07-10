@@ -22,6 +22,7 @@ classifiers = [
 include = [
   "LICENSE",
 ]
+packages = [{include = "fastapi_sessions"}]
 
 [tool.poetry.dependencies]
 python = ">=3.6.1,<4.0"
