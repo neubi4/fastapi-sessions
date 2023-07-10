@@ -1,5 +1,9 @@
 # Changelog
 
+## [0.4.2](https://github.com/neubi4/fastapi-sessions/tree/0.4.2) (2023-07-10)
+
+[Full Changelog](https://github.com/neubi4/fastapi-sessions/compare/0.4.1...0.4.2)
+
 ## [0.4.1](https://github.com/neubi4/fastapi-sessions/tree/0.4.1) (2023-07-10)
 
 [Full Changelog](https://github.com/neubi4/fastapi-sessions/compare/0.4.0...0.4.1)
