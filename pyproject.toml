@@ -22,7 +22,6 @@ classifiers = [
 include = [
   "LICENSE",
 ]
-packages = [{include = "fastapi_sessions"}]
 
 [tool.poetry.dependencies]
 python = ">=3.6.1,<4.0"
@@ -43,3 +42,7 @@ isort = {version = "^5.9.3", optional = true }
 [tool.poetry.extras]
 docs = ["mkdocs-material", "markdown-include"]
 dev = ["flake8", "black", "flake8-docstrings", "uvicorn", "pytest", "isort" ]
+
+[build-system]
+requires = ["poetry-core>=1.0.0"]
+build-backend = "poetry.core.masonry.api"
